@@ -53,7 +53,7 @@ a:visited {
 }
 
 a:hover, a:focus{
-    filter: brightness(125%)
+    color: #1EFFBC;
 }
 
 a:active {
