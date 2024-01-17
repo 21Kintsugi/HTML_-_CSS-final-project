@@ -50,7 +50,7 @@ ul {
 }
 
 a:visited {
-    color: #FFF7AE;
+    color: whitesmoke;
 }
 
 a:hover, a:focus{
@@ -58,7 +58,11 @@ a:hover, a:focus{
 }
 
 a:active {
-    color: #FFF7AE;
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
 }
 
 header {
@@ -70,16 +74,12 @@ header {
 
 .presentation-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-.description {
-    width: 1000px;
-}
-
 img {
-    border: 5px double #FFF7AE;
+    border: 5px double whitesmoke;
     border-radius: 50%;
 }
 
