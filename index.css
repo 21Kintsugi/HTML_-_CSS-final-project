@@ -66,11 +66,9 @@ a {
 }
 
 header {
-    /* max-width: 1500px; */
-    /* margin: 0 auto; */
     padding: 50px 25px;
     color: whitesmoke;
-    /* background-color: #1EFFBC; */
+    
 }
 
 .header-main-container {
@@ -80,7 +78,6 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* background-color: #1C0B19; */
 }
 
 img {
@@ -97,8 +94,18 @@ img {
 main {
     max-width: 1000px;
     margin: 0 auto;
-    /* padding: 0px 100px; */
     text-align: center;
+}
+
+.footer-navbar {
+    max-width: 1500px;
+    margin: 75px auto;
+}
+
+.socials-list, li {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 
