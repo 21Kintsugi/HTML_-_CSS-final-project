@@ -67,7 +67,7 @@ a:visited {
 
 .main-navigation-menu a:hover, a:focus{
     color: var(--BORDER-COLOR);
-    background-color: hsla(0, 0%, 100%, 0.1);
+    background-color: hsla(0, 100%, 50%, 0.1);
     width: max-content;
     height: fit-content;
     border-radius: 5px;
