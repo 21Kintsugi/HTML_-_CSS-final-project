@@ -7,11 +7,20 @@
     font-family: Afacad, Poppins, Roboto;
 }
 
+/* VARIABLES */
+:root {
+
+    /* COLORS */
+    --BORDER-COLOR: #35CE8D;
+    --DARK-COLOR: #0E131F;
+    --LIGHT-COLOR: #f5f5f5;
+}
+
 body {
     font-size: 21px;
     line-height: 1.3;
-    background-color: #0E131F;
-    color: whitesmoke;
+    background-color: var(--DARK-COLOR);
+    color: var(--LIGHT-COLOR);
 }
 
 ul {
@@ -28,7 +37,7 @@ ul {
     max-width: 1500px;
     margin: 0 auto;
     padding: 25px;
-    color: whitesmoke;
+    color: var(--LIGHT-COLOR);
 }
 
 .name {
@@ -50,15 +59,15 @@ ul {
 }
 
 a:visited {
-    color: whitesmoke;
+    color: var(--LIGHT-COLOR);
 }
 
 a:hover, a:focus{
-    color: #1EFFBC;
+    color: var(--BORDER-COLOR);
 }
 
 a:active {
-    color: whitesmoke;
+    color: var(--LIGHT-COLOR);
 }
 
 a {
@@ -67,7 +76,7 @@ a {
 
 header {
     padding: 50px 25px;
-    color: whitesmoke;
+    color: var(--LIGHT-COLOR);
     
 }
 
@@ -81,12 +90,12 @@ header {
 }
 
 .profile-pic img {
-    border: 5px solid whitesmoke;
+    border: 5px solid var(--BORDER-COLOR);
     border-radius: 50%;
 }
 
 .description {
-    border: 5px solid whitesmoke;
+    border: 5px solid var(--BORDER-COLOR);
     padding: 21px;
     border-radius: 5%;
 }
