@@ -100,18 +100,18 @@ header {
 
 
 .profile-pic img:hover {
-    border-color: #79fff6;
+    border-color: red;
 }
 
 .description {
     border: 5px solid var(--BORDER-COLOR);
     padding: 21px;
     border-radius: 5%;
-    transition: filter 1s ease-in-out;
+    transition: border-color 1s ease-in-out;
 }
 
 .description:hover {
-    filter: brightness(170%);
+    border-color: red;
 }
 
 main {
