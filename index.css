@@ -60,6 +60,7 @@ ul {
     padding-left: 21px;
 }
 
+
 a:visited {
     color: var(--LIGHT-COLOR);
 }
@@ -94,12 +95,23 @@ header {
 .profile-pic img {
     border: 5px solid var(--BORDER-COLOR);
     border-radius: 50%;
+    transition: border-color 1s ease-in-out;
+}
+
+
+.profile-pic img:hover {
+    border-color: #79fff6;
 }
 
 .description {
     border: 5px solid var(--BORDER-COLOR);
     padding: 21px;
     border-radius: 5%;
+    transition: filter 1s ease-in-out;
+}
+
+.description:hover {
+    filter: brightness(170%);
 }
 
 main {
@@ -117,6 +129,10 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.social-logo:hover {
+    filter: brightness(150%);
 }
 
 
