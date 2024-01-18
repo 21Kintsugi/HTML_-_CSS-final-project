@@ -65,8 +65,12 @@ a:visited {
     color: var(--LIGHT-COLOR);
 }
 
-a:hover, a:focus{
+.main-navigation-menu a:hover, a:focus{
     color: var(--BORDER-COLOR);
+    background-color: hsla(0, 0%, 100%, 0.1);
+    width: max-content;
+    height: fit-content;
+    border-radius: 5px;
 }
 
 a:active {
@@ -80,12 +84,11 @@ a {
 header {
     padding: 50px 25px;
     color: var(--LIGHT-COLOR);
-    
 }
 
 .header-main-container {
     width: 1000px;
-    height: max-content;
+    height: auto;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
