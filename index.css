@@ -67,10 +67,10 @@ a:visited {
 
 .main-navigation-menu a:hover, a:focus{
     color: var(--BORDER-COLOR);
-    background-color: hsla(0, 100%, 50%, 0.1);
+   /*  background-color: hsla(0, 100%, 50%, 0.1);
     width: max-content;
     height: fit-content;
-    border-radius: 5px;
+    border-radius: 5px; */
 }
 
 a:active {
@@ -84,6 +84,25 @@ a {
 header {
     padding: 50px 25px;
     color: var(--LIGHT-COLOR);
+}
+
+.name:hover, .name:focus {
+    transition: color 2s ease-in-out;
+    animation: scaleAnimation 1s infinite alternate;
+}
+
+.name:hover, .name:focus {
+    color: #00ff9d;
+}
+
+@keyframes scaleAnimation {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.05);
+    }
 }
 
 .header-main-container {
@@ -137,6 +156,7 @@ main {
 .social-logo:hover {
     filter: brightness(150%);
 }
+
 
 
 
