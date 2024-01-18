@@ -80,7 +80,7 @@ header {
     align-items: center;
 }
 
-img {
+.profile-pic img {
     border: 5px solid whitesmoke;
     border-radius: 50%;
 }
