@@ -67,10 +67,6 @@ a:visited {
 
 .main-navigation-menu a:hover, a:focus{
     color: var(--BORDER-COLOR);
-   /*  background-color: hsla(0, 100%, 50%, 0.1);
-    width: max-content;
-    height: fit-content;
-    border-radius: 5px; */
 }
 
 a:active {
@@ -84,6 +80,7 @@ a {
 header {
     padding: 50px 25px;
     color: var(--LIGHT-COLOR);
+    top: 0;
 }
 
 .name:hover, .name:focus {
@@ -155,6 +152,10 @@ main {
 
 .social-logo:hover {
     filter: brightness(150%);
+}
+
+footer {
+    bottom: 0;
 }
 
 
