@@ -29,6 +29,10 @@ ul {
     list-style-type: none;
 }
 
+.main-navigation-menu {
+    white-space: nowrap;
+}
+
 .navbar a {
     text-decoration: none;
     font-weight: bold;
@@ -45,6 +49,7 @@ ul {
 .name {
     font-size: 30px;
     font-weight: bold;
+    white-space: nowrap;
 }
 
 .container-navbar {
