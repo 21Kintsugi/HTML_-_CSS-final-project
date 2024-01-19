@@ -158,7 +158,19 @@ footer {
     bottom: 0;
 }
 
+/* MEDIA QUERIES*/
 
+/* SMALL */
+
+/* @media  screen and (max-height: 575px) {
+    .name, .navbar {
+        white-space: nowrap;
+        font-size: 10px;
+    }
+
+
+}
+ */
 
 
 
