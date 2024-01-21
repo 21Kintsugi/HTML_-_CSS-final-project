@@ -262,8 +262,13 @@ footer {
 
 }
 
-/* MEDIUM */
+/* TABLET */
 
+@media screen and (min-width:540) and (max-width: 768px) {
+
+    
+
+}
 
 
  
