@@ -167,15 +167,23 @@ footer {
 
 /* MEDIA QUERIES*/
 
-/* SMALL */
+/* SMALL - MEDIUM */
 
- @media  screen and (max-width: 575px) {
+ @media  screen and (max-width: 540px) {
     
     .name, .navbar {
         margin: 0 auto;
         margin-right: 5px;
         white-space: nowrap;
-        font-size: 10px;
+    }
+
+    .navbar {
+        font-size: 9px;
+    }
+
+    .name {
+        font-size: 13px;
+        margin-left: 0;
     }
 
     .header-main-container {
@@ -219,6 +227,11 @@ footer {
     }
 
 }
+
+/* MEDIUM */
+
+
+
  
 
 
