@@ -191,6 +191,10 @@ footer {
         border: 2px solid var(--BORDER-COLOR);
     }
 
+    .profile-pic {
+        margin-top: 35px;
+    }
+
     .description {
         border: 2px solid var(--BORDER-COLOR);
         margin-right: 5px;
