@@ -83,7 +83,7 @@ a {
 }
 
 header {
-    padding: 50px 25px;
+    /* padding: 50px 25px; */
     color: var(--LIGHT-COLOR);
     top: 0;
 }
@@ -177,18 +177,24 @@ footer {
     .header-main-container {
         max-width: 350px;
         font-size: 10px;
-        justify-content: flex-start;
     }
 
+
     .profile-pic img {
-        width: 160px;
-        height: 160px;
-        margin-right: 10px;
+        width: 150px;
+        height: 150px;
+        margin-right: 5px;
+        border: 2px solid var(--BORDER-COLOR);
+    }
+
+    .description {
+        border: 2px solid var(--BORDER-COLOR);
+        margin-right: 5px;
     }
 
     .About-me-info {
         font-size: 15px;
-        margin-top: 5px;
+        margin: 0 auto;
     }
     
 
