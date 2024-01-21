@@ -167,15 +167,33 @@ footer {
 
 /* SMALL */
 
-/* @media  screen and (max-height: 575px) {
+ @media  screen and (max-width: 575px) {
+    
     .name, .navbar {
         white-space: nowrap;
         font-size: 10px;
     }
 
+    .header-main-container {
+        max-width: 350px;
+        font-size: 10px;
+        justify-content: flex-start;
+    }
+
+    .profile-pic img {
+        width: 160px;
+        height: 160px;
+        margin-right: 10px;
+    }
+
+    .About-me-info {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    
 
 }
- */
+ 
 
 
 
