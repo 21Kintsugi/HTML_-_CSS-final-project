@@ -167,7 +167,7 @@ footer {
 
 /* MEDIA QUERIES*/
 
-/* SMALL - MEDIUM */
+/* SMALL */
 
  @media  screen and (max-width: 540px) {
     
@@ -208,10 +208,9 @@ footer {
         margin-right: 5px;
     }
 
-    .About-me-info {
-        font-size: 15px;
+    .main-container {  
         margin: 0 auto;
-        margin-top: 30px;
+        padding: 0 0 5px;
     }
 
     h1 {
@@ -227,6 +226,12 @@ footer {
     }
 
 }
+
+/* @media screen and (min-width: 280px) {
+    .name, .navbar {
+        margin: 0 auto;
+    }
+} */
 
 /* MEDIUM */
 
