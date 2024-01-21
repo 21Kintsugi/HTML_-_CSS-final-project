@@ -167,7 +167,42 @@ footer {
 
 /* MEDIA QUERIES*/
 
-/* SMALL */
+/* PHONE - SMALL */
+@media screen and (max-width: 320px) {
+
+    .name, .navbar {
+        margin: 0 auto;
+        white-space: nowrap;
+    }
+
+    .navbar li {
+        font-size: 6px;
+    }
+
+    .name {
+        font-size: 9px;
+        margin-left: 0px;
+    }
+
+    .header-main-container {
+        font-size: 7px;
+        width: fit-content;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .description {
+        margin: 0 auto;
+        white-space: nowrap;
+    }
+
+    .description {
+        padding: 2px;
+    }
+
+}
+
+/* PHONE - Medium, Large */
 
  @media  screen and (max-width: 540px) {
     
@@ -226,12 +261,6 @@ footer {
     }
 
 }
-
-/* @media screen and (min-width: 280px) {
-    .name, .navbar {
-        margin: 0 auto;
-    }
-} */
 
 /* MEDIUM */
 
