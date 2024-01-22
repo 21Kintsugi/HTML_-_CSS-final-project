@@ -83,8 +83,8 @@ a {
     text-decoration: none;
 }
 
-header {
-    /* padding: 50px 25px; */
+header { 
+    padding: 50px 25px;
     color: var(--LIGHT-COLOR);
     top: 0;
 }
