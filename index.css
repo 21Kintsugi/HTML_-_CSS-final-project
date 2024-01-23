@@ -75,7 +75,7 @@ a:visited {
     color: var(--BORDER-COLOR);
 }
 
-a:active {
+a:active, a {
     color: var(--LIGHT-COLOR);
 }
 
