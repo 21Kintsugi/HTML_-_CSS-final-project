@@ -32,7 +32,8 @@ h1 {
 }
 
 .contact-details {
-    background-color: #AFD5AA;
+    background-color: #777DA7;
+    color: whitesmoke;
     margin-top: 10px;
     margin-left: 10%;
     max-width: 80%;
@@ -46,12 +47,23 @@ h1 {
     margin: 0 auto;
 }
 
-.c-details, li {
+.c-details li {
     padding: 8px 50px;
 }
 
 ul {
     list-style-type: none;
+}
+
+.work-experience {
+    display: block;
+    max-width: 35%;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
+.work-experience p {
+    margin-top: 5px;
 }
 
 
