@@ -55,7 +55,7 @@ h1 {
     list-style-type: none;
 }
 
-.work-experience {
+.second-work-experience {
     display: block;
     max-width: 35%;
     margin-top: 10px;
@@ -66,10 +66,27 @@ h1 {
     font-size: 30px;
     margin-bottom: 15px;
     font-weight: bold;
+    opacity: 50%;
 }
 
-.work-experience p {
+.job-title {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.second-work-experience p {
     margin-top: 5px;
+}
+
+.first-work-experience p {
+    margin-top: 5px;
+}
+
+.first-work-experience {
+    display: block;
+    max-width: 35%;
+    margin-top: 20px;
+    margin-left: 10%;
 }
 
 
