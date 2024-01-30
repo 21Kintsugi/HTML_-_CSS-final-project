@@ -62,11 +62,23 @@ h1 {
     margin-left: 10%;
 }
 
-.work-experience-text, .education-text {
+.work-experience-text {
     font-size: 30px;
     margin-bottom: 15px;
     font-weight: bold;
     opacity: 50%;
+}
+
+.education-text {
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    opacity: 50%;
+}
+
+.education-container {
+    margin-top: 20px;
 }
 
 .job-title, .education-title {
@@ -94,7 +106,9 @@ h1 {
     margin-top: 5px;
 }
 
-
+.bachelor-education {
+    margin-bottom: 50px;
+}
 
 
 
