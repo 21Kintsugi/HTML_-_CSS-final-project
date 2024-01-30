@@ -55,21 +55,21 @@ h1 {
     list-style-type: none;
 }
 
-.second-work-experience {
+.second-work-experience, .first-work-experience, .masters-education, .bachelor-education {
     display: block;
     max-width: 35%;
     margin-top: 10px;
     margin-left: 10%;
 }
 
-.work-experience-text {
+.work-experience-text, .education-text {
     font-size: 30px;
     margin-bottom: 15px;
     font-weight: bold;
     opacity: 50%;
 }
 
-.job-title {
+.job-title, .education-title {
     font-size: 30px;
     font-weight: bolder;
 }
@@ -83,11 +83,18 @@ h1 {
 }
 
 .first-work-experience {
-    display: block;
-    max-width: 35%;
     margin-top: 20px;
-    margin-left: 10%;
 }
+
+.masters-education p {
+    margin-top: 5px;
+}
+
+.bachelor-education p {
+    margin-top: 5px;
+}
+
+
 
 
 
