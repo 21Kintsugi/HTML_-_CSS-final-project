@@ -118,7 +118,7 @@ h1 {
     margin-bottom: 50px;
 }
 
-.bachelor-education li, .masters-education li {
+.bachelor-education li, .masters-education li, .skills-set-one li, .skills-set-two li {
     list-style-type: none;
 }
 .experience-and-skills-container {
