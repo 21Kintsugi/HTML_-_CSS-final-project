@@ -118,6 +118,9 @@ h1 {
     margin-bottom: 50px;
 }
 
+.bachelor-education li, .masters-education li {
+    list-style-type: none;
+}
 .experience-and-skills-container {
     display: flex;
 }
