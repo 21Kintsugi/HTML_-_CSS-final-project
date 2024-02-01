@@ -77,6 +77,14 @@ h1 {
     opacity: 50%;
 }
 
+.languages-text {
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    opacity: 50%;
+}
+
 .skills-set-text {
     margin-top: 10px;
     font-size: 30px;
@@ -147,4 +155,8 @@ h1 {
     border: 2px solid black;
     border-radius: 5px;
     padding: 15px;
+}
+
+.languages-knowledge li {
+    list-style-type: none;
 }
