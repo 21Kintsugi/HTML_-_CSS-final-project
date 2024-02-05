@@ -175,11 +175,14 @@ h1 {
 
 /* PHONE SMALL */
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 500px) {
 
-    /* .general-description {
-        max-height: 100px;
-    } */
+    .general-description {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
 
     .my-name, h1 {
         font-size: 5px;
