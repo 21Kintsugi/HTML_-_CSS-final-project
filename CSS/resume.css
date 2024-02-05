@@ -177,12 +177,7 @@ h1 {
 
 @media screen and (max-width: 500px) {
 
-    .general-description {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-    }
+    
 
     .my-name, h1 {
         font-size: 5px;
@@ -194,16 +189,6 @@ h1 {
         height: 50px;
         border: 1px solid black;
     }
-
-
-    /* .general-description {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 10px;
-        margin-left: 10%;
-        background-color: whitesmoke;
-        max-width: 80%;
-    } */
+    
 }
 
