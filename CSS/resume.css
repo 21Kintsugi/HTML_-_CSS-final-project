@@ -170,3 +170,37 @@ h1 {
     font-weight: bold;
     margin-bottom: 15px;
 }
+
+/* MEDIA QUERIES */
+
+/* PHONE SMALL */
+
+@media screen and (max-width: 320px) {
+
+    /* .general-description {
+        max-height: 100px;
+    } */
+
+    .my-name, h1 {
+        font-size: 5px;
+        margin-bottom: 2px;
+    }
+
+    .profile-pic img {
+        width: 50px;
+        height: 50px;
+        border: 1px solid black;
+    }
+
+
+    /* .general-description {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        margin-left: 10%;
+        background-color: whitesmoke;
+        max-width: 80%;
+    } */
+}
+
