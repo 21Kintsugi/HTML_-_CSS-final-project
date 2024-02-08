@@ -75,10 +75,17 @@
 
 /* END OF CONTACT DETAILS CONTAINER */
 
+/* MAIN PART OF THE CV CONTAINER */
+
+.main-part-of-the-CV-container {
+    display: flex;
+    max-width: 100%;
+}
+
 /* START OF WORK EXPERIENCE AND EDUCATION CONTAINER */
 
 .work-experience-and-education-container {
-    max-width: 45%;
+    flex: 1;
 }
 
 .section-title {
@@ -126,6 +133,18 @@
 }
 
 /* END OF WORK EXPERIENCE AND EDUCATION CONTAINER */
+
+/* START OF SKILLS AND LANGUAGES CONTAINER */
+
+.skills-and-languages-container {
+    flex: 1;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 /* MEDIA QUERIES */
