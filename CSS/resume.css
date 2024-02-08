@@ -12,6 +12,7 @@
 
     /* FONT SIZES */
     --FONT-SIZE-XXS: 6.5px;
+    --FONT-SIZE-MID: 10px;
     --FONT-SIZE-XS: 12px;
     --FONT-SIZE-S: 16px;
     --FONT-SIZE-M: 18px;
@@ -86,7 +87,7 @@
 }
 
 .main-text {
-    font-size: 10px;
+    font-size: var(--FONT-SIZE-MID);
     font-weight: bold;
     margin-top: 10px;
     margin-left: 10px;
@@ -122,7 +123,7 @@
     margin-left: 20px;
 }
 
-/* START OF WORK EXPERIENCE AND EDUCATION CONTAINER */
+/* END OF WORK EXPERIENCE AND EDUCATION CONTAINER */
 
 
 /* MEDIA QUERIES */
@@ -156,6 +157,39 @@
     }
 
     /* END OF CONTACT DETAILS CONTAINER */
+
+    /* START OF WORK EXPERIENCE AND EDUCATION CONTAINER */
+
+    .section-title {
+        font-size: var(--FONT-SIZE-S);
+    }
+
+    .main-text {
+        font-size: var(--FONT-SIZE-XS);
+    }
+
+    .secondary-text {
+        font-size: var(--FONT-SIZE-MID);
+    }
+
+    .period-text {
+        font-size: var(--FONT-SIZE-MID);
+    }
+
+    .location-text {
+        font-size: var(--FONT-SIZE-MID);
+    }
+
+    .achievements-tasks li {
+        font-size: var(--FONT-SIZE-MID);
+    }
+
+    .final-text dd {
+        font-size: var(--FONT-SIZE-MID);
+    }
+
+    /* END OF WORK EXPERIENCE AND EDUCATION CONTAINER */
+
 }
 
 /* TABLETS */
