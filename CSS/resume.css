@@ -222,6 +222,45 @@
 
     /* END OF CONTACT DETAILS CONTAINER */
 
+    /* START OF WORK EXPERIENCE AND EDUCATION CONTAINER */
+
+    .section-title {
+        font-size: var(--FONT-SIZE-L);
+        margin-left: 25px;
+    }
+
+    .main-text {
+        font-size: var(--FONT-SIZE-M);
+        margin-left: 25px;
+    }
+
+    .secondary-text {
+        font-size: var(--FONT-SIZE-S);
+        margin-left: 25px;
+    }
+
+    .period-text {
+        font-size: var(--FONT-SIZE-S);
+        margin-left: 25px;
+    }
+
+    .location-text {
+        font-size: var(--FONT-SIZE-S);
+        margin-left: 25px;
+    }
+
+    .achievements-tasks li {
+        font-size: var(--FONT-SIZE-S);
+        margin-left: 40px;
+    }
+
+    .final-text dd {
+        font-size: var(--FONT-SIZE-S);
+        margin-left: 25px;
+    }
+
+    /* END OF WORK EXPERIENCE AND EDUCATION CONTAINER */
+
 }
 
 /* LAPTOPS and DESKTOPS */ 
