@@ -6,6 +6,19 @@
     box-sizing: border-box;
 }
 
+/* VARIABLES */
+
+:root {
+
+    /* FONT SIZES */
+    --FONT-SIZE-XXS: 6.5px;
+    --FONT-SIZE-XS: 12px;
+    --FONT-SIZE-S: 16px;
+    --FONT-SIZE-M: 18px;
+    --FONT-SIZE-L: 21px;
+
+}
+
 /* START OF "PICTURE AND PRESENTATION CONTAINER" */
 
 .picture-and-presentation-container {
@@ -27,11 +40,11 @@
 
 .name {
     font-weight: bold;
-    font-size: 12px;
+    font-size: var(--FONT-SIZE-XS);
 }
 
 .presentation {
-    font-size: 6.5px;
+    font-size: var(--FONT-SIZE-XXS);
 }
 
 /* END OF "PICTURE AND PRESENTATION CONTAINER" */
@@ -46,18 +59,71 @@
 }
 
 .email-and-location {
-    font-size: 6.5px;
+    font-size: var(--FONT-SIZE-XXS);
     line-height: 10px;
 }
 
 .phone-number-and-linkedin, a:visited, a {
-    font-size: 6.5px;
+    font-size: var(--FONT-SIZE-XXS);
     line-height: 10px;
     color: whitesmoke;
     text-decoration: none;
 }
 
 /* END OF CONTACT DETAILS CONTAINER */
+
+/* START OF WORK EXPERIENCE AND EDUCATION CONTAINER */
+
+.work-experience-and-education-container {
+    max-width: 45%;
+}
+
+.section-title {
+    font-weight: bold;
+    margin: 10px 0px 10px 10px;
+    opacity: 80%;
+    font-size: var(--FONT-SIZE-XS);
+}
+
+.main-text {
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.secondary-text {
+    font-size: 9px;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+.period-text {
+    font-size: 7px;
+    font-style: italic;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.location-text {
+    font-size: 7px;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+.achievements-tasks li {
+    font-size: var(--FONT-SIZE-XXS);
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.final-text dd {
+    font-size: var(--FONT-SIZE-XXS);
+    margin-left: 20px;
+}
+
+/* START OF WORK EXPERIENCE AND EDUCATION CONTAINER */
+
 
 /* MEDIA QUERIES */
 
@@ -73,7 +139,7 @@
     }
 
     .name {
-        font-size: 16px;
+        font-size: var(--FONT-SIZE-S);
     }
 
     .presentation {
@@ -104,11 +170,11 @@
     }
 
     .name {
-        font-size: 21px;
+        font-size: var(--FONT-SIZE-L);
     }
 
     .presentation {
-        font-size: 12px;
+        font-size: var(--FONT-SIZE-XS);
     }
 
     /* END OF "PICTURE AND PRESENTATION CONTAINER" */
@@ -116,7 +182,7 @@
     /* START OF CONTACT DETAILS CONTAINER */
 
     .email-and-location, .phone-number-and-linkedin, a {
-        font-size: 12px;
+        font-size: var(--FONT-SIZE-XS);
         line-height: 20px;
     }
 
@@ -140,7 +206,7 @@
     }
 
     .presentation {
-        font-size: 18px;
+        font-size: var(--FONT-SIZE-M);
     }
 
     /* END OF "PICTURE AND PRESENTATION CONTAINER" */
@@ -148,7 +214,7 @@
     /* START OF CONTACT DETAILS CONTAINER */
 
     .email-and-location, .phone-number-and-linkedin, a {
-        font-size: 18px;
+        font-size: var(--FONT-SIZE-M);
         line-height: 25px;
     }
 
