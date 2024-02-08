@@ -17,6 +17,8 @@
     --FONT-SIZE-S: 16px;
     --FONT-SIZE-M: 18px;
     --FONT-SIZE-L: 21px;
+    --FONT-SIZE-XL: 30px;
+    --FONT-SIZE-XXL: 36px;
 
 }
 
@@ -275,7 +277,7 @@
     }
 
     .name {
-        font-size: 30px;
+        font-size: var(--FONT-SIZE-XL);
     }
 
     .presentation {
@@ -292,5 +294,44 @@
     }
 
     /* END OF CONTACT DETAILS CONTAINER */
+
+     /* START OF WORK EXPERIENCE AND EDUCATION CONTAINER */
+
+     .section-title {
+        font-size: var(--FONT-SIZE-XXL);
+        margin-left: 25px;
+    }
+
+    .main-text {
+        font-size: var(--FONT-SIZE-L);
+        margin-left: 25px;
+    }
+
+    .secondary-text {
+        font-size: var(--FONT-SIZE-L);
+        margin-left: 25px;
+    }
+
+    .period-text {
+        font-size: var(--FONT-SIZE-M);
+        margin-left: 25px;
+    }
+
+    .location-text {
+        font-size: var(--FONT-SIZE-M);
+        margin-left: 25px;
+    }
+
+    .achievements-tasks li {
+        font-size: var(--FONT-SIZE-M);
+        margin-left: 40px;
+    }
+
+    .final-text dd {
+        font-size: var(--FONT-SIZE-M);
+        margin-left: 25px;
+    }
+
+    /* END OF WORK EXPERIENCE AND EDUCATION CONTAINER */
     
 }
