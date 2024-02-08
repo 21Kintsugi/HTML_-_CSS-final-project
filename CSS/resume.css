@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+/* START OF "PICTURE AND PRESENTATION CONTAINER" */
+
 .picture-and-presentation-container {
     display: flex;
     align-items: center;
@@ -14,9 +16,13 @@
     margin: 10px auto;
 }
 
-.profile-pciture, img {
+.profile-picture, img {
     border-radius: 50%;
     margin-right: 10px;
+}
+
+.name-presentation-container {
+    display: block;
 }
 
 .name {
@@ -28,11 +34,38 @@
     font-size: 6.5px;
 }
 
+/* END OF "PICTURE AND PRESENTATION CONTAINER" */
+
+/* START OF CONTACT DETAILS CONTAINER */
+
+.contact-details-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2D3142;
+    color: whitesmoke;
+}
+
+.email-and-location {
+    font-size: 6.5px;
+    line-height: 10px;
+}
+
+.phone-number-and-linkedin, a:visited, a {
+    font-size: 6.5px;
+    line-height: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* END OF CONTACT DETAILS CONTAINER */
+
 /* MEDIA QUERIES */
 
 /* SMARTPHONES, PORTRAIT TABLETS and SMALL SCREENS */
 
 @media screen and (min-width: 550px) and (max-width: 769px) {
+
+    /* START OF "PICTURE AND PRESENTATION CONTAINER" */
 
     .profile-picture img {
         width: 100px;
@@ -47,11 +80,23 @@
         font-size: 9px;
     }
 
+    /* END OF "PICTURE AND PRESENTATION CONTAINER" */
+
+    /* START OF CONTACT DETAILS CONTAINER */
+
+    .email-and-location, .phone-number-and-linkedin, a {
+        font-size: 9px;
+        line-height: 15px;
+    }
+
+    /* END OF CONTACT DETAILS CONTAINER */
 }
 
 /* TABLETS */
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    /* START OF "PICTURE AND PRESENTATION CONTAINER" */
 
     .profile-picture img {
         width: 150px;
@@ -65,11 +110,25 @@
     .presentation {
         font-size: 12px;
     }
+
+    /* END OF "PICTURE AND PRESENTATION CONTAINER" */
+
+    /* START OF CONTACT DETAILS CONTAINER */
+
+    .email-and-location, .phone-number-and-linkedin, a {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    /* END OF CONTACT DETAILS CONTAINER */
+
 }
 
 /* LAPTOPS and DESKTOPS */ 
 
-@media screen and ( min-width: 1025px) and (max-width: 1448px) {
+@media screen and ( min-width: 1025px) {
+
+    /* START OF "PICTURE AND PRESENTATION CONTAINER" */
 
     .profile-picture img {
         width: 175px;
@@ -83,4 +142,16 @@
     .presentation {
         font-size: 18px;
     }
+
+    /* END OF "PICTURE AND PRESENTATION CONTAINER" */
+
+    /* START OF CONTACT DETAILS CONTAINER */
+
+    .email-and-location, .phone-number-and-linkedin, a {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    /* END OF CONTACT DETAILS CONTAINER */
+    
 }
