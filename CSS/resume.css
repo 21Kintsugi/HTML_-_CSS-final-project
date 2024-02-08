@@ -11,8 +11,7 @@
     align-items: center;
     justify-content: center;
     max-width: 80%;
-    margin-left: 10%;
-    margin-top: 20px;
+    margin: 10px auto;
 }
 
 .profile-pciture, img {
@@ -27,4 +26,61 @@
 
 .presentation {
     font-size: 6.5px;
+}
+
+/* MEDIA QUERIES */
+
+/* SMARTPHONES, PORTRAIT TABLETS and SMALL SCREENS */
+
+@media screen and (min-width: 550px) and (max-width: 769px) {
+
+    .profile-picture img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .name {
+        font-size: 16px;
+    }
+
+    .presentation {
+        font-size: 9px;
+    }
+
+}
+
+/* TABLETS */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .profile-picture img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .name {
+        font-size: 21px;
+    }
+
+    .presentation {
+        font-size: 12px;
+    }
+}
+
+/* LAPTOPS and DESKTOPS */ 
+
+@media screen and ( min-width: 1025px) and (max-width: 1448px) {
+
+    .profile-picture img {
+        width: 175px;
+        height: 175px;
+    }
+
+    .name {
+        font-size: 30px;
+    }
+
+    .presentation {
+        font-size: 18px;
+    }
 }
