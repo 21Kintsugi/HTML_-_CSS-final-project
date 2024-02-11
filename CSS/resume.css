@@ -144,7 +144,7 @@
     font-size: var(--FONT-SIZE-XXS);
     display: flex;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 .skills-set-one {
@@ -225,6 +225,13 @@
 
     /* END OF WORK EXPERIENCE AND EDUCATION CONTAINER */
 
+    /* START OF SKILLS AND LANGUAGES CONTAINER */
+
+    .skills {
+        font-size: var(--FONT-SIZE-XS);
+        margin-top: 20px;
+    }
+
 }
 
 /* TABLETS */
@@ -296,6 +303,19 @@
 
     /* END OF WORK EXPERIENCE AND EDUCATION CONTAINER */
 
+    /* START OF SKILLS AND LANGUAGES CONTAINER */
+
+    .skills {
+        font-size: var(--FONT-SIZE-S);
+        margin-top: 50px;
+    }
+
+    .skills-set-one {
+        justify-self: flex-start;
+        margin-left: 25px;
+        margin-right: 70px;
+    }
+
 }
 
 /* LAPTOPS and DESKTOPS */ 
@@ -366,5 +386,23 @@
     }
 
     /* END OF WORK EXPERIENCE AND EDUCATION CONTAINER */
+
+    /* START OF SKILLS AND LANGUAGES CONTAINER */
+
+    .skills {
+        font-size: var(--FONT-SIZE-M);
+        margin-top: 50px;
+    }
+
+    .skills-set-one {
+        justify-self: flex-start;
+        margin-left: 25px;
+        margin-right: 100px;
+    }
+
+    .skill-text {
+        margin-bottom: 15px;
+    }
+
     
 }
