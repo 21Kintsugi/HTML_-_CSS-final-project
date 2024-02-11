@@ -189,7 +189,6 @@
     color: purple;
 }
 
-
 /* END OF SKILLS AND LANGUAGES CONTAINER */
 
 /* MEDIA QUERIES */
@@ -265,6 +264,14 @@
 
     .section-title:nth-child(3) {
         margin-top: 40px;
+    }
+
+    .section-title:nth-child(4) {
+        margin-top: 50px;
+    }
+    
+    .CV-download a {
+        margin-left: 50px;
     }
 
     /* END OF SKILLS AND LANGUAGES CONTAINER */
@@ -360,6 +367,14 @@
     .languages {
         font-size: var(--FONT-SIZE-S);
         margin-left: 25px;
+    }
+
+    .section-title:nth-child(4) {
+        margin-top: 60px;
+    }
+    
+    .CV-download a {
+        margin-left: 75px;
     }
     
     /* END OF SKILLS AND LANGUAGES CONTAINER */
@@ -461,7 +476,14 @@
         margin-left: 25px;
     }
 
-    /* END OF SKILLS AND LANGUAGES CONTAINER */
+    .section-title:nth-child(4) {
+        margin-top: 70px;
+    }
+    
+    .CV-download a {
+        margin-left: 100px;
+    }
 
+    /* END OF SKILLS AND LANGUAGES CONTAINER */
     
 }
