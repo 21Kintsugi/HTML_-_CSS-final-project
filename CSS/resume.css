@@ -161,6 +161,21 @@
     border-radius: 3px;
 }
 
+.section-title:nth-child(3) {
+    margin-top: 25px;
+}
+
+.languages {
+    font-size: var(--FONT-SIZE-XS);
+    margin-left: 10px;
+}
+
+.language-text {
+    margin-bottom: 15px;
+}
+
+/* END OF SKILLS AND LANGUAGES CONTAINER */
+
 /* MEDIA QUERIES */
 
 /* SMARTPHONES, PORTRAIT TABLETS and SMALL SCREENS */
