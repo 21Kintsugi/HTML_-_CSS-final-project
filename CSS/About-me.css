@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@500&family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Afacad, Poppins, Roboto;
+}
+
+h1 {
+    height: 100%;
+    margin: auto auto;
+    text-align: center;
+    width: 80%;
+    font-size: large;
+}
