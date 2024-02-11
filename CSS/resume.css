@@ -86,6 +86,7 @@
 
 .work-experience-and-education-container {
     flex: 1;
+    margin-bottom: 25px;
 }
 
 .section-title {
@@ -174,14 +175,21 @@
     margin-bottom: 15px;
 }
 
-.section-title:nth-child(4) {
-    margin-top: 30px;
+.last-section{
+    font-weight: bold;
+    margin: 10px 0px 10px 10px;
+    opacity: 80%;
+    font-size: var(--FONT-SIZE-XS);
+    margin-top: 25px;
+}
+
+.CV-download {
+    text-align: center;
 }
 
 .CV-download a {
     color: black;
-    margin-top: 30px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     text-decoration: underline;
 }
 
@@ -266,14 +274,11 @@
         margin-top: 40px;
     }
 
-    .section-title:nth-child(4) {
-        margin-top: 50px;
+    .last-section {
+        font-size: var(--FONT-SIZE-S);
+        margin-top: 40px;
     }
     
-    .CV-download a {
-        margin-left: 50px;
-    }
-
     /* END OF SKILLS AND LANGUAGES CONTAINER */
 
 }
@@ -369,12 +374,14 @@
         margin-left: 25px;
     }
 
-    .section-title:nth-child(4) {
+    .last-section {
+        font-size: var(--FONT-SIZE-L);
         margin-top: 60px;
+        margin-left: 25px;
     }
     
-    .CV-download a {
-        margin-left: 75px;
+    .CV-download {
+        text-align: center;
     }
     
     /* END OF SKILLS AND LANGUAGES CONTAINER */
@@ -476,14 +483,18 @@
         margin-left: 25px;
     }
 
-    .section-title:nth-child(4) {
-        margin-top: 70px;
+    .last-section {
+        font-size: var(--FONT-SIZE-XXL);
+        margin-top: 60px;
+        margin-left: 25px;
     }
     
-    .CV-download a {
-        margin-left: 100px;
+    .CV-download {
+        text-align: start;
+        margin-left: 25px;
+        margin-top: 50px;
     }
 
     /* END OF SKILLS AND LANGUAGES CONTAINER */
-    
+
 }
