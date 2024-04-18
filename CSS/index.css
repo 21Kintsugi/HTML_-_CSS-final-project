@@ -259,6 +259,7 @@ footer {
         margin-bottom: 40px;
         height: 25px;
         width: 25px;
+        justify-content: center;
     }
 
 }
